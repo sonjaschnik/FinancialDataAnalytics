@@ -41,7 +41,7 @@ This course consists of both lectures and accompanying tutorial sessions. The sc
   * [03_montecarlo](https://classroom.github.com/a/nNUaPe5P) [Due Apr 30, 2025, 08:00 UTC]
   * [04_var](https://classroom.github.com/a/k1vW46Mf) [Due Mai 7, 2025, 08:00 UTC]
   * [05_optimization](https://classroom.github.com/a/Oj_0UndG) [Due May 21, 2025, 08:00 UTC]
-  * [06_nlp](https://classroom.github.com/a/q6thu-oL) [Due May 28, 2025, 08:00 UTC]
+  * [06_nlp](https://classroom.github.com/a/q6thu-oL) [Due Jun 4, 2025, 08:00 UTC]
   * [Algo trading case study](https://classroom.github.com/a/gdTY4KPC) [See due dates in case description]
 
 ## Prerequisites

@@ -43,7 +43,12 @@ This course consists of both lectures and accompanying tutorial sessions. The sc
   * [05_optimization](https://classroom.github.com/a/Oj_0UndG) [Due May 21, 2025, 08:00 UTC]
   * [06_nlp](https://classroom.github.com/a/q6thu-oL) [Due Jun 4, 2025, 08:00 UTC]
   * [07_datam](https://classroom.github.com/a/7x_tBXx2) [Due Jun 18, 2025, 08:00 UTC]
+  * [08_django](https://classroom.github.com/a/IQVv3Q2S) [Due Jul 30, 2025, 08:00 UTC]**
+  * [09_satellites](https://classroom.github.com/a/r4akALAj) [Due Jul 30, 2025, 08:00 UTC]**
+  * [10_django2](https://classroom.github.com/a/E3TRo5RB) [Due Jul 30, 2025, 08:00 UTC]**
   * [Algo trading case study](https://classroom.github.com/a/gdTY4KPC) [See due dates in case description]
+
+> ** Three **optional** homework assignments, e.g., in case you have missed a previous assignment. The **best seven** count towards your grade.
 
 ## Prerequisites
 

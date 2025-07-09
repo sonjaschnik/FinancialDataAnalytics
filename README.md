@@ -196,6 +196,13 @@ The deadlines for all deliverables are tracked through their commit timestamps. 
 * Large Language Models (LLM)
 * ChatGPT API
 
+### Guest lecture: Agentic AI ([GitHub LINK](https://github.com/dsaad68/agno-workshop))
+* Introduction to agentic AI systems
+* Overview of Python's Agno framework
+* Single-agent and multi-agent systems
+* Agent tools and memory
+* Model Context Protocol (MCP)
+
 ### Case study: TBA
 
 ## Disclaimer:

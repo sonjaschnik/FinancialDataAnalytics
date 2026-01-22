@@ -14,17 +14,12 @@ fabian.woebbeking@iwh-halle.de
 
 This course is designed to provide students with a hands-on understanding of the use of data science techniques in the field of financial economics. Students will learn how to collect, clean, and analyze financial data using Python, SQL and other tools. Topics will include financial data visualization, time series analysis and statistical modeling. Students will work on real-world projects to apply their knowledge to financial data.
 
-## Schedule
-
-The course schedule and rooms are announced on Stud.IP, see important links below. Lectures start as scheduled **cum tempore ($t + 15$ minutes)!**
-
 ## Important links
 
-* [Course repository](https://github.com/cafawo/FinancialDataAnalytics)
-* [Stud.IP page](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=5a9defd4ce9b514471199574c12ee710&again=yes)
-* [Support (Q&A)](https://github.com/cafawo/FinancialDataAnalytics/discussions)
-
-* [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=wmh)
+* [Course repository](https://github.com/cafawo/FinancialDataAnalytics): Everything you need can be found or is linked on this page.
+* [Stud.IP page](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=5a9defd4ce9b514471199574c12ee710&again=yes): The schedule and lecture rooms are listed here.
+* [Support (Q&A)](https://github.com/cafawo/FinancialDataAnalytics/discussions): Essentially a dynamic FAQ section; you can post questions and see other students’ Q&A here.
+* [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=wmh): We employ a small gamification element for honor and bonus points.
 
 * Homework and case submission:
   * [01_setup](https://classroom.github.com/a/xNnDzJ6-) [Due Apr 16, 2025, 08:00 UTC]
@@ -39,7 +34,7 @@ The course schedule and rooms are announced on Stud.IP, see important links belo
   * [10_django2](https://classroom.github.com/a/E3TRo5RB) [Due Jul 30, 2025, 08:00 UTC]**
   * [Algo trading case study](https://classroom.github.com/a/gdTY4KPC) [See due dates in case description]
 
-> ** Three **optional** homework assignments, e.g., in case you have missed a previous assignment. The **best seven** count towards your grade.
+> ** Three **optional** homework assignments are available, for example if you have missed a previous assignment. The **best seven count** toward your grade.
 
 ## Prerequisites
 

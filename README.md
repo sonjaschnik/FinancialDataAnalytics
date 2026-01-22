@@ -10,9 +10,13 @@ MLU - Martin Luther University Halle-Wittenberg
 
 fabian.woebbeking@iwh-halle.de
 
-## Course Description
+## Course Description and Learning Experience
 
-This course is designed to provide students with a hands-on understanding of the use of data science techniques in the field of financial economics. Students will learn how to collect, clean, and analyze financial data using Python, SQL and other tools. Topics will include financial data visualization, time series analysis and statistical modeling. Students will work on real-world projects to apply their knowledge to financial data.
+This course offers a hands-on introduction to data analytics in financial economics. It combines methods from data science, statistics, and textual analysis, with a focus on tools and concepts that are directly relevant for financial economists.
+
+Teaching is highly interactive and practice-oriented. Concepts are introduced through interactive notebooks, coding, and applied exercises, supported by real-world case studies and light gamification elements. Students learn how to work with financial data using Python, SQL, and modern workflows, and apply these skills to solve economically meaningful problems.
+
+The course emphasizes both understanding and implementation: students are encouraged not only to produce working solutions, but also to understand the economic questions and assumptions behind them.
 
 ## Important links
 
@@ -25,7 +29,7 @@ This course is designed to provide students with a hands-on understanding of the
   * [01_setup](https://classroom.github.com/a/xNnDzJ6-) [Due Apr 16, 2025, 08:00 UTC]
   * [02_python](https://classroom.github.com/a/8wg20wgb) [Due Apr 23, 2025, 08:00 UTC]
   * [03_montecarlo](https://classroom.github.com/a/nNUaPe5P) [Due Apr 30, 2025, 08:00 UTC]
-  * [04_var](https://classroom.github.com/a/k1vW46Mf) [Due Mai 7, 2025, 08:00 UTC]
+  * [04_var](https://classroom.github.com/a/k1vW46Mf) [Due May 7, 2025, 08:00 UTC]
   * [05_optimization](https://classroom.github.com/a/Oj_0UndG) [Due May 21, 2025, 08:00 UTC]
   * [06_nlp](https://classroom.github.com/a/q6thu-oL) [Due Jun 4, 2025, 08:00 UTC]
   * [07_datam](https://classroom.github.com/a/7x_tBXx2) [Due Jun 18, 2025, 08:00 UTC]
@@ -40,7 +44,7 @@ This course is designed to provide students with a hands-on understanding of the
 
 * Strong interest in financial economics
 * Basic knowledge of programming (preferably Python) and statistics
-* All the software used during this course are open-source and free, this includes:
+* All the software used during this course is open-source and free, this includes:
     * Python**
       * [GitHub Codespaces](https://github.com/features/codespaces), a server based Python environment
       * [Miniforge (conda-forge)](https://conda-forge.org/download/), to run Python locally on your machine (macOS, Windows, Linux) 
@@ -52,7 +56,8 @@ This course is designed to provide students with a hands-on understanding of the
 
 ## Materials
 
-All materials are hosted as a Git repository on GitHub.
+All materials are hosted as a Git repository on GitHub. Slides and homework assignments are provided as [Jupyter Notebooks](https://docs.jupyter.org/en/latest/), which means you can interact directly with everything shown - either on your own computer or on our classroom server.
+
 
 ```bash
 FinancialDataAnalytics/
@@ -81,7 +86,7 @@ git pull
 
 ## Reading
 
-This course is predominantly hands on and draws from several subject areas, such as financial economics, data science or textual analysis. As such, there exists no single text book recommendation. Relevant 'reading' material is linked in the script. That being said, resources include but are not limited to:
+This course is predominantly hands-on and draws from several subject areas, such as financial economics, data science or textual analysis. As such, there exists no single textbook recommendation. Relevant 'reading' material is linked in the script. That being said, resources include but are not limited to:
 * ["Python Data Science Handbook" (Jake VanderPlas)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 * ["Python for Finance" (Yves Hilpisch)](https://github.com/yhilpisch/py4fi2nd)
 * "Data Analysis for Business, Economics, and Policy" (Gabor Bekes, Gabor Kezdi)
@@ -91,7 +96,6 @@ This course is predominantly hands on and draws from several subject areas, such
 * https://stackoverflow.com/
 * https://docs.python.org/3/tutorial/index.html
 * https://git-scm.com/book/en/v2
-
 
 ## Grading Policy
 
@@ -107,10 +111,9 @@ The grading policy is discussed in detail during the first lecture.
 
 > ** Please note that the overall achievable score cannot exceed 100% (1.0).
 
-
 ### How to submit your work
 
-All students are required to register using the classroom link that you can find on top of this page, see "Important links". We will discuss this during the first lecture.
+We make heavy use of a system called Git. This serves a dual purpose: first, it allows us to conveniently manage submissions throughout the course; second, it familiarizes you with one of the most important tools used in modern software development and data science. All students are therefore required to register using the classroom link found at the top of this page under “Important links.” This will be discussed in the first lecture.
 
 You can use your existing GitHub account or create a new account free of charge. Please note that you can optionally sign up for GitHub Pro, which is offered free of charge with your university email address.
 
@@ -118,14 +121,14 @@ All deliverables must be submitted through this system. To this end, there is on
 
 **stage + commit + push = submit!**
 
-If this doesn’t make much sense to you now, don't worry. We will discuss how to use Git and GitHub extensively, and you will have tutorial sessions for additional guidance.
+If this doesn’t make much sense to you now, don’t worry. We will discuss how to use Git and GitHub extensively, and you will have tutorial sessions for additional guidance.
 
 ### Deadlines
 
-* Homework assignments: deadlines are communicated on GitHub Classroom and under "Important link" above.
-* Case studies: deadlines will be announced with the case description.
+* Homework assignments: deadlines are communicated via GitHub Classroom and listed under “Important links” above.
+* Case studies: deadlines are announced with the respective case descriptions.
 
-The deadlines for all deliverables are tracked through their commit timestamps, no emails necessary. We will talk more about this later.
+The deadlines for all deliverables are tracked using commit timestamps (Git); no emails are necessary. We will discuss this in more detail later.
 
 ## Use of AI
 
@@ -203,6 +206,6 @@ Best practices, efficient workflows, and common pitfalls of AI-assisted coding a
 
 ### Case study: TBA
 
-## Disclaimer:
+## Disclaimer
 
 This syllabus is a general plan for the course; deviations announced to the class by the instructor may be necessary.

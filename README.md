@@ -2,7 +2,7 @@
 
 # Financial Data Analytics in Python
 
-**Prof. Dr. Fabian Woebbeking**</br>
+**Jun.-Prof. Dr. Fabian Woebbeking**</br>
 Assistant Professor of Financial Economics
 
 IWH - Leibniz Institute for Economic Research</br>
@@ -10,30 +10,21 @@ MLU - Martin Luther University Halle-Wittenberg
 
 fabian.woebbeking@iwh-halle.de
 
-
-**Birte Winter**</br>
-PhD Candidate, Teaching Assistant (TA)
-
-IWH - Leibniz Institute for Economic Research</br>
-
-birte.winter@iwh-halle.de
-
-
 ## Course Description
 
-This course is designed to provide students with a hands-on understanding of the use of data science techniques in the field of finance. Students will learn how to collect, clean, and analyze financial data using Python, SQL and other tools. Topics will include financial data visualization, time series analysis and statistical modeling. Students will work on real-world projects to apply their knowledge to financial data.
+This course is designed to provide students with a hands-on understanding of the use of data science techniques in the field of financial economics. Students will learn how to collect, clean, and analyze financial data using Python, SQL and other tools. Topics will include financial data visualization, time series analysis and statistical modeling. Students will work on real-world projects to apply their knowledge to financial data.
 
 ## Schedule
 
-This course consists of both lectures and accompanying tutorial sessions. The schedule and rooms are announced on Stud.IP, see important links below.
-
-**Lectures and tutorials start as scheduled cum tempore ($t + 15$ minutes)!**
+The course schedule and rooms are announced on Stud.IP, see important links below. Lectures start as scheduled **cum tempore ($t + 15$ minutes)!**
 
 ## Important links
 
 * [Course repository](https://github.com/cafawo/FinancialDataAnalytics)
 * [Stud.IP page](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=5a9defd4ce9b514471199574c12ee710&again=yes)
 * [Support (Q&A)](https://github.com/cafawo/FinancialDataAnalytics/discussions)
+
+* [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=wmh)
 
 * Homework and case submission:
   * [01_setup](https://classroom.github.com/a/xNnDzJ6-) [Due Apr 16, 2025, 08:00 UTC]
@@ -52,16 +43,17 @@ This course consists of both lectures and accompanying tutorial sessions. The sc
 
 ## Prerequisites
 
-* Strong interest and pre-knowledge in financial economics
+* Strong interest in financial economics
 * Basic knowledge of programming (preferably Python) and statistics
-* All the software used during this course are open-source and/or free, this includes:
-    * Python
-      * [GitHub Codespaces](https://github.com/features/codespaces)
-      * [Anaconda distribution](https://www.anaconda.com/products/distribution)
-      * ... whatever works for you
+* All the software used during this course are open-source and free, this includes:
+    * Python**
+      * [GitHub Codespaces](https://github.com/features/codespaces), a server based Python environment
+      * [Miniforge (conda-forge)](https://conda-forge.org/download/), to run Python locally on your machine (macOS, Windows, Linux) 
+      * ... or whatever works for you
     * Git: https://git-scm.com/
     * GitHub: https://skills.github.com/
 
+> ** We will discuss how to get you going during the first lecture. If you already have a working Python setup - great - please carry on. If you're new to Python, you can start by using our Codespaces server, which is even accessible through your tablet.
 
 ## Materials
 
@@ -113,14 +105,17 @@ The grading policy is discussed in detail during the first lecture.
 * Homework assignments: 30%
 * Case study: 40%
 * Presentation: 30%
-* Bonus points: + 15%
+* Bonus points: + 10%**
   * StudySnips: https://studysnips.eu.pythonanywhere.com/
   * Quality answers in GitHub discussions: https://github.com/cafawo/FinancialDataAnalytics/discussions
   * Bug bounty (pull requests): https://github.com/cafawo/FinancialDataAnalytics/pulls
 
+> ** Please note that the overall achievable score cannot exceed 100% (1.0).
+
+
 ### How to submit your work
 
-All students are required to register using the classroom link that you can find on top of this page, see "Important links". 
+All students are required to register using the classroom link that you can find on top of this page, see "Important links". We will discuss this during the first lecture.
 
 You can use your existing GitHub account or create a new account free of charge. Please note that you can optionally sign up for GitHub Pro, which is offered free of charge with your university email address.
 
@@ -132,20 +127,28 @@ If this doesn’t make much sense to you now, don't worry. We will discuss how t
 
 ### Deadlines
 
-* Homework assignments, have to be submitted before the next lecture.
-* Case submission deadlines will be announced with the case description.
+* Homework assignments: deadlines are communicated on GitHub Classroom and under "Important link" above.
+* Case studies: deadlines will be announced with the case description.
 
-The deadlines for all deliverables are tracked through their commit timestamps. We will talk more about this later.
+The deadlines for all deliverables are tracked through their commit timestamps, no emails necessary. We will talk more about this later.
 
+## Use of AI
+
+This course embraces the use of AI systems (e.g. large language models and coding assistants) as productive tools for learning, coding, and data analysis. When used responsibly, AI can substantially improve efficiency, help explore ideas, and support understanding of complex concepts.
+
+Using AI does not replace independent thinking or responsibility for results. Blindly copying AI-generated content without verification is strongly discouraged and may lead to incorrect or misleading outcomes.
+
+Best practices, efficient workflows, and common pitfalls of AI-assisted coding and analysis will be discussed throughout the course.
 
 ## Structure
 
 ### Part 1: Introduction ([slides_pt1.ipynb](https://github.com/cafawo/FinancialDataAnalytics/blob/master/slides.ipynb))
 
-* Discussion of grading scheme
+* Discussion of grading scheme and deliverables
 * Setting up the tech
   * Git and GitHub
-  * Necessary Python libraries (Anaconda distribution)
+  * Necessary Python libraries
+* Coding with AI (best practices and prompt engineering)
 * Introduction to the Python programming language
 * Data types and structures
 * Packages and modules

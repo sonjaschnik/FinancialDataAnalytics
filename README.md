@@ -24,11 +24,10 @@ Every student is welcome to attend the course and submit assignments. However, *
 
 ## Important links
 
-* [Course repository](https://github.com/cafawo/FinancialDataAnalytics): Everything you need can be found or is linked on this page.
-* [Stud.IP page](https://studip.uni-halle.de/dispatch.php/course/details?sem_id=5a9defd4ce9b514471199574c12ee710&again=yes): The schedule and lecture rooms are listed here.
+* [Course repository](https://github.com/cafawo/FinancialDataAnalytics): Everything you need can be found on or is linked to this page.
+* [Stud.IP page](https://studip.uni-halle.de/dispatch.php/course/overview?cid=5341d64c24c39be7fb4a90d4ff291d6c): The schedule and lecture rooms are listed here.
 * [Support (Q&A)](https://github.com/cafawo/FinancialDataAnalytics/discussions): Essentially a dynamic FAQ section; you can post questions and see other students’ Q&A here.
-* [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=wmh): We employ a small gamification element for honor and bonus points.
-
+* [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=zz6h): We employ a small gamification element for honor and bonus points.
 * Homework and case submission:
   * [01_setup](https://classroom.github.com/a/cGZUsHTR) [Due Apr 15, 2026, 08:00 UTC]
 

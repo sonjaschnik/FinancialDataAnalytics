@@ -20,7 +20,7 @@ The course emphasizes both understanding and implementation: students are encour
 
 ## Registration (!)
 
-Every student is welcome to attend the course and submit assignments. However, **you MUST register in Löwenportal as well as personally sign the registration form** in order to receive a grade! The registration form will be available in class **until 2026-04-29**. This requirement is independent of the submission of deliverables (homework and cases), as explained further below.
+Every student is welcome to attend the course and submit assignments. However, **you MUST register in Löwenportal as well as personally sign the registration form** in order to receive a grade! The registration form will be available in class **until 2026-04-29**. This requirement is independent of the submission of deliverables (homework and cases), which is explained further below.
 
 ## Important links
 

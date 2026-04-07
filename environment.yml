@@ -1,0 +1,28 @@
+#
+# Base course environment for the main slides, homework, and src/ code.
+# Intentionally excludes optional extras from homework/_ignore_homework/.
+#
+name: edu
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10,<3.13
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - requests
+  - sqlalchemy
+  - beautifulsoup4
+  - nltk
+  - wordcloud
+  - openai
+  - django
+  - pdfminer.six
+  - earthengine-api
+  - geemap
+  - ipywidgets
+  - pyarrow

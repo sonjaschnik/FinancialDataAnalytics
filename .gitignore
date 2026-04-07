@@ -4,6 +4,20 @@
 desktop.ini
 local.ini
 
+# macOS / Apple metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Dropbox metadata
+.dropbox
+.dropbox.attr
+.dropbox.cache/
+*.dropbox
+*.dropbox.attr
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

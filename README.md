@@ -20,7 +20,7 @@ The course emphasizes both understanding and implementation: students are encour
 
 ## Registration (!)
 
-Every student is welcome to attend the course and submit assignments. However, **you MUST personally sign the registration form** in order to receive a grade! The registration form will be available in class **during the first five lectures**. This requirement is independent of the submission of deliverables (homework and cases), as explained further below.
+Every student is welcome to attend the course and submit assignments. However, **you MUST register in Löwenportal as well as personally sign the registration form** in order to receive a grade! The registration form will be available in class **until 2026-04-29**. This requirement is independent of the submission of deliverables (homework and cases), as explained further below.
 
 ## Important links
 
@@ -30,6 +30,7 @@ Every student is welcome to attend the course and submit assignments. However, *
 * [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=zz6h): We employ a small gamification element for honor and bonus points.
 * Homework and case submission:
   * [01_setup](https://classroom.github.com/a/cGZUsHTR) [Due Apr 15, 2026, 08:00 UTC]
+  * casestudy [Due July 31, 2026, 08:00 UTC]
 
 > ** Three **optional** homework assignments are available, for example if you have missed a previous assignment. The **best seven count** toward your grade.
 

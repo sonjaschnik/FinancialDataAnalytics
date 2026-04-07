@@ -26,17 +26,7 @@ The course emphasizes both understanding and implementation: students are encour
 * [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=wmh): We employ a small gamification element for honor and bonus points.
 
 * Homework and case submission:
-  * [01_setup](https://classroom.github.com/a/xNnDzJ6-) [Due Apr 16, 2025, 08:00 UTC]
-  * [02_python](https://classroom.github.com/a/8wg20wgb) [Due Apr 23, 2025, 08:00 UTC]
-  * [03_montecarlo](https://classroom.github.com/a/nNUaPe5P) [Due Apr 30, 2025, 08:00 UTC]
-  * [04_var](https://classroom.github.com/a/k1vW46Mf) [Due May 7, 2025, 08:00 UTC]
-  * [05_optimization](https://classroom.github.com/a/Oj_0UndG) [Due May 21, 2025, 08:00 UTC]
-  * [06_nlp](https://classroom.github.com/a/q6thu-oL) [Due Jun 4, 2025, 08:00 UTC]
-  * [07_datam](https://classroom.github.com/a/7x_tBXx2) [Due Jun 18, 2025, 08:00 UTC]
-  * [08_django](https://classroom.github.com/a/IQVv3Q2S) [Due Jul 30, 2025, 08:00 UTC]**
-  * [09_satellites](https://classroom.github.com/a/r4akALAj) [Due Jul 30, 2025, 08:00 UTC]**
-  * [10_django2](https://classroom.github.com/a/E3TRo5RB) [Due Jul 30, 2025, 08:00 UTC]**
-  * [Algo trading case study](https://classroom.github.com/a/gdTY4KPC) [See due dates in case description]
+  * [01_setup](https://classroom.github.com/a/cGZUsHTR) [Due Apr 15, 2026, 08:00 UTC]
 
 > ** Three **optional** homework assignments are available, for example if you have missed a previous assignment. The **best seven count** toward your grade.
 

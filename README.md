@@ -18,7 +18,7 @@ Teaching is highly interactive and practice-oriented. Concepts are introduced th
 
 The course emphasizes both understanding and implementation: students are encouraged not only to produce working solutions, but also to understand the economic questions and assumptions behind them.
 
-# Registration (!)
+## Registration (!)
 
 Every student is welcome to attend the course and submit assignments. However, **you MUST personally sign the registration form** in order to receive a grade! The registration form will be available in class **during the first five lectures**. This requirement is independent of the submission of deliverables (homework and cases), as explained further below.
 

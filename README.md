@@ -18,6 +18,10 @@ Teaching is highly interactive and practice-oriented. Concepts are introduced th
 
 The course emphasizes both understanding and implementation: students are encouraged not only to produce working solutions, but also to understand the economic questions and assumptions behind them.
 
+## Schedule
+
+The course schedule and rooms are announced on Stud.IP, see important links below. Lectures start as scheduled **cum tempore ($t + 15$ minutes)!**
+
 ## Registration (!)
 
 Every student is welcome to attend the course and submit assignments. However, **you MUST register in Löwenportal as well as personally sign the registration form** in order to receive a grade! The registration form will be available in class **until 2026-04-29**. This requirement is independent of the submission of deliverables (homework and cases), which is explained further below.

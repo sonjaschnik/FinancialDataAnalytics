@@ -18,9 +18,9 @@ Teaching is highly interactive and practice-oriented. Concepts are introduced th
 
 The course emphasizes both understanding and implementation: students are encouraged not only to produce working solutions, but also to understand the economic questions and assumptions behind them.
 
-## Schedule
+## Schedule and location
 
-The course schedule and rooms are announced on Stud.IP, see important links below. Lectures start as scheduled **cum tempore ($t + 15$ minutes)!**
+The course schedule and rooms are announced on Stud.IP, see important links below. Lectures start as scheduled **cum tempore ($t + 15$ minutes)!** If you have trouble finding the room, please take a look at this [MAP](https://computerpool.wiwi.uni-halle.de/lageplan_pc-pools/).
 
 ## Registration (!)
 

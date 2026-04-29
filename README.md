@@ -34,7 +34,7 @@ Every student is welcome to attend the course and submit assignments. However, *
 * [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=zz6): We employ a small gamification element for honor and bonus points.
 * Homework** and case submission:
   * [01_setup](https://classroom.github.com/a/cGZUsHTR) [Due Jun 30, 2026, 08:00 UTC]
-  * [02_python](https://classroom.github.com/a/qrdXaqGd) [Due May 6, 2026, 08:00 UTC]
+  * [02_python](https://classroom.github.com/a/mQE5_9XX) [Due May 6, 2026, 08:00 UTC]
   * casestudy [Due July 31, 2026, 08:00 UTC]
 
 > ** You can find all homework assignments in the corresponding [homework/](https://github.com/cafawo/FinancialDataAnalytics/tree/master/homework) folder.

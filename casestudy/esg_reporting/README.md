@@ -5,16 +5,246 @@
 **Prof. Dr. Fabian Woebbeking**</br>
 Assistant Professor of Financial Economics
 
-IWH - Leibniz Institute for Economic Research</br>
-MLU - Martin Luther University Halle-Wittenberg
+IWH – Leibniz Institute for Economic Research</br>
+MLU – Martin Luther University Halle-Wittenberg
 
 fabian.woebbeking@iwh-halle.de
 
+---
 
-# Case study: ESG Reporting
+# Case Study: AI-Assisted ESG Report Generation and Text Analysis
 
+The overarching goal of this case study is to combine modern AI-assisted workflows with classical and LLM-based text analysis techniques. The learning objectives are:
 
+* structured data collection from publicly available sources,
+* AI-assisted report generation using a no-code workflow tool,
+* text analysis in Python.
 
-## Example data (see examples/)
+You will be assigned **four companies**. Your first task is to get to know these companies — who they are, what they do, and how they position themselves on ESG topics. You will then build a single reusable AI workflow that generates an ESG report, and apply it to all four companies. Finally, you will compare the AI-generated reports to the companies' actual published ESG or sustainability disclosures using text analysis in Python.
 
-[Deutsche Bank ESG reporting](https://www.db.com/what-we-do/responsibility/reports/sustainability-publications)
+Guidance is provided in class, through dedicated tutorial sessions and on the course's [GitHub discussion board](https://github.com/cafawo/FinancialDataAnalytics/discussions). Please also note that you find plenty of guidance on the internet, including Wikipedia, YouTube and ChatGPT.
+
+The ultimate deliverable of this case study is a summary of your methodology, results, and critical reflections in a `results/README.md` file. The summary should be succinct, clearly written, and grounded in both your empirical findings and relevant academic or industry literature. If applicable, state possible limitations of your study.
+
+A secondary but equally important objective is that your code must be robust enough to be executed and delivered through GitHub (see the course's README.md).
+
+The diagram below gives an overview of the three parts and how they connect:
+
+```mermaid
+flowchart LR
+  subgraph P1["Part 1 – Data collection"]
+    direction TB
+    A1[Literature review] --> A2[Collect company data]
+  end
+  subgraph P2["Part 2 – DataNXT workflow"]
+    direction TB
+    B1[Build workflow] --> B2[Apply to all 4 companies]
+    B2 --> B3[4 ESG reports]
+  end
+  subgraph P3["Part 3 – Text analysis"]
+    direction TB
+    C1[Classic analysis] --> C3[Findings]
+    C2[LLM analysis] --> C3
+  end
+  P1 --> P2 --> P3 --> D[Results & summary]
+```
+
+---
+
+## Your Company Assignments
+
+You will be assigned four companies individually. As part of your analysis, you are expected to research and reflect on how these companies relate to one another — sectoral similarities and differences may turn out to be relevant when interpreting your results.
+
+---
+
+## Part 1: Data Collection
+
+### Literature Review and Hypothesis Development
+
+Before collecting any data, conduct a brief literature review on ESG reporting. What do environmental, social, and governance disclosures actually measure? What frameworks exist (e.g. GRI, TCFD, SASB, EU CSRD)? What determines the quality and comprehensiveness of ESG reports? Use your findings to develop expectations about what a meaningful ESG report should contain and which data sources are most relevant.
+
+Consider the following questions:
+
+* What key metrics are typically reported for E, S, and G?
+* How do reporting frameworks differ across industries and geographies?
+* What are the known limitations of voluntary ESG disclosures?
+
+### Identifying and Collecting Data
+
+#### 1. Input data for your DataNXT workflow
+
+For each of your four companies, collect data that will serve as the factual basis for your AI-generated ESG report. You should aim for broad coverage of all three ESG pillars. Below are suggested sources:
+
+**Financial filings and official disclosures**
+* For US-listed companies for instance check: SEC EDGAR (https://www.sec.gov/cgi-bin/browse-edgar) annual reports (10-K), quarterly reports (10-Q).
+* For German companies: the Bundesanzeiger (https://www.bundesanzeiger.de) for annual financial statements; company investor relations pages for non-financial reports.
+* Company websites often host additional useful material such as press releases, investor presentations, and dedicated sustainability portals with TCFD reports, GRI indices, and UN Global Compact communications.
+
+**ESG-specific databases and ratings**
+* Yahoo Finance (https://finance.yahoo.com) provides basic ESG risk scores under the "Sustainability" tab for many listed companies.
+* Sustainalytics and MSCI ESG offer some publicly accessible summary ratings.
+* CDP (https://www.cdp.net) publishes climate-related disclosures for thousands of companies.
+
+**News and media**
+* Google News or financial news aggregators (e.g. Reuters, Bloomberg, Handelsblatt for German firms) can reveal recent ESG controversies, lawsuits, regulatory actions, or sustainability initiatives.
+* The RepRisk platform provides ESG risk intelligence.
+
+To be able to upload your data on DataNXT your input data should be in one of the following formats: PDF, IMAGE, DOCX, HTML, PPTX, ASCIIDOC, or MARKDOWN. Document your data sources carefully and keep them in your repository (or link to them if file sizes are too large).
+
+> **Important:** The company's actual ESG or sustainability report **must not** be used as an input to your DataNXT workflow. The purpose of this case study is to generate an ESG report from independent data sources and then compare it to the official report.
+
+#### 2. Official ESG reports for comparison
+
+In addition to the input data above, you need to locate each company's official ESG or sustainability report. This is the document you will compare your AI-generated report against in Part 3. Company websites are the most reliable place to find these — look for a dedicated "Sustainability", "ESG", or "Corporate Responsibility" section, typically under the investor relations or about pages. Most large listed companies publish a standalone sustainability report or include a substantive ESG section in their annual report, freely available as a PDF.
+
+---
+
+## Part 2: AI-Assisted ESG Report Generation with DataNXT
+
+### Introduction to DataNXT
+
+[DataNXT](https://datanxt.de/) is a no-code AI workflow tool that enables you to build and run structured, repeatable AI tasks — known as *workflow chats*. A workflow chat is a multi-step conversation with a large language model where each step can be pre-configured with a prompt, and outputs from one step can feed into the next. DataNXT also shows the sources underlying each response, and allows you to review, edit, and approve answers at each stage before proceeding.
+
+> **Example files:** The `examples/` folder in this repository contains a set of Deutsche Bank documents that were used as a reference run. These illustrate the type and format of files you should upload to DataNXT as input for your workflow.
+
+### Building Your Workflow
+
+Build a single workflow chat in DataNXT that produces an ESG report for a company. The report should cover all three pillars — Environmental, Social, and Governance — though the exact structure, depth, and framing are up to you. Some possible elements to include:
+
+* **Environmental**: carbon emissions (Scope 1, 2, 3 if available), energy consumption, water usage, waste management, climate targets, environmental controversies.
+* **Social**: workforce size and diversity, health and safety record, labor relations, supply chain standards, community engagement, product safety.
+* **Governance**: board composition and independence, executive compensation, audit and risk oversight, anti-corruption policies, shareholder rights, regulatory compliance.
+
+Your workflow should be designed to be **general enough to work across all four of your assigned companies** without being rebuilt from scratch for each one. Think carefully about how to prompt the workflow so that it produces meaningful, company-specific output while remaining reusable. This is a design challenge in itself — a workflow that is too generic may produce superficial reports, while one that is too tailored to a single company may not port well.
+
+The diagram below illustrates how you first build and refine the workflow on one company, then apply it to the remaining three:
+
+```mermaid
+flowchart TD
+  subgraph Phase1["Phase 1 - Build the workflow"]
+    S[Collect initial data for company 1] --> U[Upload files to DataNXT]
+    U --> C[Start workflow chat]
+    C --> H[Highlight good answers]
+    H --> V[Check sources]
+    V --> M{Happy with output?}
+    M -- No: add more data --> U
+    M -- No: refine prompts --> C
+    M -- Yes --> R[ESG report for company 1]
+  end
+
+  subgraph Phase2["Phase 2 - Apply to remaining companies"]
+    R2[Collect data for next company] --> U2[Upload files to DataNXT]
+    U2 --> W[Run same workflow]
+    W --> E[Review and edit output]
+    E --> Ri[ESG report saved]
+    Ri --> N{More companies?}
+    N -- Yes --> R2
+    N -- No --> Done[4 ESG reports ready]
+  end
+
+  Phase1 --> Phase2
+```
+
+### Applying the Workflow
+
+Once you are satisfied with your workflow, apply it to the remaining three of your assigned companies and save each generated report in a consistent format.
+
+---
+
+## Part 3: Text Analysis in Python
+
+The core analytical task is to compare your AI-generated ESG reports to the companies' actual published ESG or sustainability reports. This analysis should be conducted in Python, either in a Jupyter Notebook or as a `.py` script. The goal is not to declare one report "better" than the other, but to understand in what ways they differ — and to reflect on what those differences reveal.
+
+Beyond the pairwise comparison of generated vs. actual reports, you should also think about **patterns across your four companies**. Are some companies easier for the workflow to cover than others? Do any of the companies seem more similar to each other in terms of ESG profile, reporting style, or text characteristics? Use your analysis to explore and explain any such structure you find.
+
+### 3.1 Classic Text Analysis
+
+At minimum, you should implement a set of classical, statistics-based text analysis methods. In the following you can find some suggestions:
+
+**Length and coverage**
+* Total word count and sentence count.
+* Average sentence length (a proxy for readability/complexity).
+* Number of paragraphs or sections.
+* Section-level word count: do both reports devote similar attention to E, S, and G?
+
+**Vocabulary and lexical richness**
+* Type-token ratio (unique words / total words) as a measure of vocabulary diversity.
+* Frequency distribution of the most common non-stopword terms.
+* Keyword presence: does the AI-generated report use the same domain-specific terminology (e.g. "Scope 3", "materiality", "TCFD") as the actual report?
+
+**Readability**
+* Flesch Reading Ease or Flesch-Kincaid Grade Level scores.
+* Gunning Fog Index.
+
+**Sentiment analysis**
+* Document-level sentiment using tools such as `VADER` or `TextBlob`. Do the reports differ in overall tone (e.g. more positive, more hedged)?
+* Sentence-level sentiment distribution: are certain ESG pillars discussed more positively or negatively in one version vs. the other?
+
+**Structural similarity**
+* Cosine similarity of TF-IDF vectors between the AI-generated and the actual report.
+* Jaccard similarity of keyword sets.
+* Topic modeling (e.g. LDA via `gensim` or `sklearn`) to check whether both documents discuss the same latent topics.
+
+### 3.2 LLM-Assisted Analysis (Optional)
+
+If you want to go beyond classical methods, you can use an LLM (e.g. ChatGPT via the OpenAI API, or Claude via the Anthropic API) to compare the two reports along dimensions that are harder to capture statistically. This is entirely optional, but can add depth to your analysis. Some examples of what you could ask the model to assess:
+
+* **Factual consistency**: Does the AI-generated report contain any claims that appear to contradict the actual report (e.g. different emissions figures, different governance structures)?
+* **Completeness**: What substantive topics appear in the actual report that are absent from the AI-generated version, and vice versa?
+* **Specificity**: Does the actual report tend to give more concrete, company-specific detail (e.g. named initiatives, quantified targets), while the AI report tends to be more generic? Or the other way around?
+* **Framing differences**: Does one report emphasize risks while the other emphasizes achievements? Are certain ESG controversies mentioned in one but not the other?
+
+---
+
+## Repository Structure and Code
+
+Your GitHub repository should be organized as follows:
+
+```bash
+esg_reporting/
+├── data/                    # Raw collected data per company (text, PDFs, CSVs, etc.)
+│   ├── company_a/
+│   ├── company_b/
+│   ├── company_c/
+│   └── company_d/
+├── examples/                # Example input files for DataNXT upload (Deutsche Bank)
+├── reports/                 # ESG reports (AI-generated and actual)
+│   ├── generated/           # Output from DataNXT workflow
+│   └── actual/              # Official ESG/sustainability reports 
+├── literature/              # Relevant academic papers and frameworks
+├── README.md                # This file: case description and instructions
+├── analysis.ipynb           # Jupyter Notebook (or .py) for text analysis
+├── requirements.txt         # Python dependencies
+└── results/
+    └── README.md            # Summary of your findings
+```
+
+The structure above is a suggestion. You may deviate from it, but you must document your actual repository structure clearly in your README.md. If data files are too large to host on GitHub, use an external service (e.g. Dropbox) and include links in your README.
+
+---
+
+## Summary of Deliverables
+
+All code and results must be submitted via GitHub as outlined in the [Syllabus](https://github.com/cafawo/FinancialDataAnalytics#how-to-submit-your-work). The exception are large data files, which can be hosted externally.
+
+**Code:**
+* Submit **executable** code.
+* Guide us through your repository with a clear README.md and inline comments.
+* Make sure (test) that your code can be executed.
+* Provide a `requirements.txt` with all Python dependencies.
+
+**Summary of Results (`results/README.md`) should include:**
+* Literature: key references on ESG reporting frameworks and text analysis methods.
+* Your findings from the text analysis (Part 3), with tables, figures, or metrics as appropriate.
+* Economic intuition: what do the differences between AI-generated and actual ESG reports reveal about the nature of corporate ESG disclosure?
+* Critical reflection: limitations of your data collection, your DataNXT workflow, and your text analysis.
+
+---
+
+## Presentation
+
+In the final two sessions of the lecture, you will present your work to your peers. Each presentation should last approximately 15 minutes. Active participation during other students' presentations — through relevant questions and discussion — contributes to your participation score. Let's make it an interactive and engaging experience for everyone!
+
+Best of luck!
+
+**If you need more help, post a question on the [discussion board](https://github.com/iwh-halle/FinancialDataAnalytics/discussions) or contact the TA for this course.**

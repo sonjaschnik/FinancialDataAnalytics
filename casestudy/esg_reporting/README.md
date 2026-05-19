@@ -24,9 +24,11 @@ You will be assigned **four companies**. Your first task is to get to know these
 
 Guidance is provided in class, through dedicated tutorial sessions and on the course's [GitHub discussion board](https://github.com/cafawo/FinancialDataAnalytics/discussions). Please also note that you find plenty of guidance on the internet, including Wikipedia, YouTube and ChatGPT.
 
-The ultimate deliverable of this case study is a summary of your methodology, results, and critical reflections in a `results/README.md` file. The summary should be succinct, clearly written, and grounded in both your empirical findings and relevant academic or industry literature. If applicable, state possible limitations of your study.
+Before submission there is a **graded mandatory presentation** where you can present the current state of your work. After the presentation you have sufficient time to incorporate any feedback into your work before submitting the final deliverable.
 
-A secondary but equally important objective is that your code must be robust enough to be executed and delivered through GitHub (see the course's README.md).
+The **final deliverable** of this case study is a summary of your methodology, results, and critical reflections in a `results/README.md` file. The summary should be concise, clearly written, and grounded in both your empirical findings and relevant academic or industry literature. If applicable, state possible limitations of your study. Also ensure that your code is in working condition, properly documented, and that you use best practices for agentic AI where applicable.
+
+> ** As always, everything is submitted through GitHub, including your presentation, code and case solution. Please commit and push often in order to save your work. The final state of the repository after the deadline has passed matters for your grade.
 
 The diagram below gives an overview of the three parts and how they connect:
 
@@ -43,8 +45,8 @@ flowchart LR
   end
   subgraph P3["Part 3 – Text analysis"]
     direction TB
-    C1[Classic analysis] --> C3[Findings]
-    C2[LLM analysis] --> C3
+    C1[Company report (Part 1)] --> C3[Differences]
+    C2[Student report (Part 2)] --> C3
   end
   P1 --> P2 --> P3 --> D[Results & summary]
 ```

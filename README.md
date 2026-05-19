@@ -26,7 +26,7 @@ The course schedule and rooms are announced on Stud.IP, see important links belo
 
 Every student is welcome to attend the course and submit assignments. However, **you MUST register in Löwenportal as well as personally sign the registration form** in order to receive a grade! The registration form will be available in class **until 2026-04-29**. This requirement is independent of the submission of deliverables (homework and cases), which is explained further below.
 
-## Important links
+## Important links and **deadlines (!)**
 
 * [Course repository](https://github.com/cafawo/FinancialDataAnalytics): Everything you need can be found on or is linked to this page.
 * [Stud.IP page](https://studip.uni-halle.de/dispatch.php/course/overview?cid=5341d64c24c39be7fb4a90d4ff291d6c): The schedule and lecture rooms are listed here.
@@ -34,7 +34,16 @@ Every student is welcome to attend the course and submit assignments. However, *
 * [StudySnips Leaderboard 🏆](https://studysnips.eu.pythonanywhere.com/leaderboard/?classroom=zz6): We employ a small gamification element for honor and bonus points.
 * Homework** and case submission:
   * [01_setup](https://classroom.github.com/a/cGZUsHTR) [Due Jun 30, 2026, 08:00 UTC]
-  * casestudy [Due July 31, 2026, 08:00 UTC]
+  * 02_python [Due May 6, 2026, 08:00 UTC]
+  * 03_montecarlo [Due May 13, 2026, 08:00 UTC]
+  * 04_var [Due May 27, 2026, 08:00 UTC]
+  * 05_optimization [Due May 27, 2026, 08:00 UTC]
+  * 06_nlp 
+  * 07_datam 
+  * 08_deribit 
+  * 09_satellites 
+  * **presentation [Due July 1, 2026, 08:00 UTC]**
+  * **casestudy [Due July 31, 2026, 08:00 UTC]**
 
 > ** Please submit all homework assignments to the 01_setup repository. You can find all homework assignments in the corresponding [homework/](https://github.com/cafawo/FinancialDataAnalytics/tree/master/homework) folder.
 

@@ -20,7 +20,7 @@ You will be assigned **four companies**. Your first task is to get to know these
 
 Guidance is provided in class, through dedicated tutorial sessions and on the course's [GitHub discussion board](https://github.com/cafawo/FinancialDataAnalytics/discussions). Please also note that you find plenty of guidance on the internet, including Wikipedia, YouTube and ChatGPT.
 
-Before submission there is a **graded mandatory presentation** where you present the current state of your work. After the presentation you have sufficient time to incorporate any feedback into your work before submitting the final deliverable.
+Before submission there is a short **graded presentation** where you present the current state of your work. After the presentation you have sufficient time to incorporate any feedback into your work before submitting the final deliverable. Active participation during other students' presentations — through relevant questions and discussion — contributes to your participation score. Let's make it an interactive and engaging experience for everyone!
 
 The **final deliverable** of this case study is a summary of your methodology, results, and critical reflections in a `results/README.md` file. The summary should be concise, clearly written, and grounded in both your empirical findings and relevant academic or industry literature. If applicable, state possible limitations of your study. Also ensure that your code is in working condition, properly documented, and that you use best practices for agentic AI where applicable.
 
@@ -223,10 +223,6 @@ All code and results must be submitted via GitHub as outlined in the [Syllabus](
 * Critical reflection: limitations of your data collection, your DataNXT workflow, and your text analysis.
 
 
-
-### Presentation
-
-In the final two sessions of the lecture, you will present your work to your peers. Each presentation should last approximately 15 minutes. Active participation during other students' presentations — through relevant questions and discussion — contributes to your participation score. Let's make it an interactive and engaging experience for everyone!
 
 Best of luck!
 

@@ -42,8 +42,8 @@ Every student is welcome to attend the course and submit assignments. However, *
   * 07_datam 
   * 08_deribit 
   * 09_satellites 
-  * **presentation [Due July 1, 2026, 08:00 UTC]**
-  * **casestudy [Due July 31, 2026, 08:00 UTC]**
+  * **esg_reporting case presentation [Due July 1, 2026, 08:00 UTC]**
+  * **esg_reporting case final submission [Due July 31, 2026, 08:00 UTC]**
 
 > ** Please submit all homework assignments to the 01_setup repository. You can find all homework assignments in the corresponding [homework/](https://github.com/cafawo/FinancialDataAnalytics/tree/master/homework) folder.
 

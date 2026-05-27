@@ -38,7 +38,7 @@ Every student is welcome to attend the course and submit assignments. However, *
   * 03_montecarlo [Due May 13, 2026, 08:00 UTC]
   * 04_var [Due May 27, 2026, 08:00 UTC]
   * 05_optimization [Due May 27, 2026, 08:00 UTC]
-  * 06_nlp 
+  * 06_nlp [Due June 3, 2026, 08:00 UTC]
   * 07_datam 
   * 08_deribit 
   * 09_satellites 
